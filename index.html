@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sec/css/style.css">
+    <title>MyStorage</title>
+</head>
+<body>
+    <div class="main-header">
+        <div class="select">
+            <select name="Filter" id="filter-item">
+                <option value="all">All</option>
+            </select>
+        </div>
+        <h2>MyStorage</h2>
+    </div>
+    <div class="container">
+        <div class="container-header">
+            <ul>
+                <li>Item<span>a</span></li>
+                <li><span>aa</span>Stock</li>
+                <li> <span>aaa</span> Sold</li>
+            </ul>
+        </div>
+        <div class="content" id="content">
+            
+        </div>
+        <button id="add-btn">Add</button>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-header">
+            <h3>Add New Item</h3>
+            <p id="popup-close-btn">X</p>
+        </div>
+        <div class="popup-content">
+            <h3 class="popup-title">Type</h3>
+            <div class="type-content" id="type-content"></div>
+            <h3 class="popup-title">Name</h3>
+            <input class="popup-input" id="name-input" type="text">
+            <h3 class="popup-title">Stock</h3>
+            <input class="popup-input" id="stock-input" type="text">
+            
+        </div>
+        <button id="popup-add-btn">Add</button>
+    </div>
+    <script src="/sec/app.js"></script>
+</body>
+</html>
