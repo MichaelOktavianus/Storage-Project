@@ -150,7 +150,7 @@ popupAddBtn.addEventListener("click",function(){
     
 })
 function createItem() {
-        for (i = 0; i < itemArray.length; i++){
+        for (i = itemArray.length - 1; i < itemArray.length; i++){
             console.log(itemArray)
             let items = document.createElement('div')
             items.setAttribute('class','item')
